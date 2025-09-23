@@ -18,21 +18,47 @@ Vous pouvez aussi consulter [la documentation du langage](Documentation/MOGWAI_B
 
 **MOGWAI CLI** est une application console qui permet d'utiliser le langage MOGWAI en mode interactif. Vous pouvez y utiliser toutes les commandes et fonctions du langage. Chaque ligne tapée est exécutée directement.
 
+![MOGWAI CLI](./Images/img02.png)
+
 Il est possible de taper un "long" programme et de l'exécuter d'un bloc depuis **MOGWAI CLI** avec la fonction **_run_** du langage.
+
+Par exemple, ce petit programme :
+
+```
+cls 
+
+mogwai.reset
+
+to 'foo' params [id: .number name: .string save: (.boolean true)] do 
+« 
+	" " ?
+	"id   = {! id}" eval ?
+	"name = {! name}" eval ?
+	"save = {! save}" eval ?
+»
+
+[foo id: 10 name: "MARTIN Louis" save: false]
+[foo id: 20 name: "DUPONT Jacques"]
+[foo id: 30 name: "DURANT Marc"]
+[foo id: 40 name: "DOE John" save: false]
+```
+Aura comme resultat d'exécution :
+
+![MOGWAI CLI](./Images/img03.png)
 
 Vous pouvez consulter [la documentation de **MOGWAI CLI**](Documentation/MOGWAI_BASICS.pdf) pour comprendre comment cette application fonctionne.
 
 Elle est disponible pour les plateformes suivantes :
 
-+ [Windows 32 bits (intel)](MOGWAI_CLI/Windows_32_bits.zip)
-+ Windows 64 bits (intel)
-+ Mac OSX 64 bits (intel)
-+ Mac OSX 64 bits (arm)
-+ Linux 64 bits (intel)
-+ Linux 64 bits (arm)
++ [Windows 32 bits (intel)](MOGWAI_CLI/Windows_32_bits_(intel).zip)
++ [Windows 64 bits (intel)](MOGWAI_CLI_Windows_64_bits_(intel).zip)
++ [Mac OSX 64 bits (intel)](MOGWAI_CLI/Mac_OSX_64_bits_(intel).zip)
++ [Mac OSX 64 bits (arm)](MOGWAI_CLI/Mac_OSX_64_bits_(arm).zip)
++ [Linux 64 bits (intel)](MOGWAI_CLI/Linux_64_bits_(intel).zip)
++ [Linux 64 bits (arm)](MOGWAI_CLI/Linux_64_bits_(arm).zip)
 
 Vous pouvez télécharger la version de **MOGWAI CLI** adaptée à votre plateforme.
 
-Pour l'utiliser, il suffit d'extraire l'archive où vous le souhaitez et de lancer **MOGWAI CLI** depuis cet emplacement.
+Pour l'utiliser, il suffit d'extraire l'archive où vous le souhaitez et lancer **MOGWAI CLI** depuis cet emplacement.
 
 ## MOGWAI STUDIO
