@@ -85,3 +85,11 @@ Avec **MOGWAI STUDIO** le développement et la mise au point des programmes s'en
 
 + [Windows 32 bits (intel)](MOGWAI_STUDIO/Windows_32_bits_(intel).zip)
 + [Windows 64 bits (intel)](MOGWAI_STUDIO/Windows_64_bits_(intel).zip)
+
+  ## Les utilisations dans l'industrie
+
+  Le runtime **MOGWAI** a déjà été plusieurs fois utilisé dans des applications industrielles et de mise au point d'applications utilisant la communication série et Bluetooth Low Energy.
+
+  La dernière en date (octobre 2025) est un banc de tests d'appareils électroniques (développé en C# ?.NET 8 pour Windows) qui utilise le runtime **MOGWAI** pour l'écriture de tous les différents tests pour les différents produits concernés.
+
+  ![MOGWAI CLI](./Images/img07.png)
