@@ -62,3 +62,11 @@ Vous pouvez télécharger la version de **MOGWAI CLI** adaptée à votre platefo
 Pour l'utiliser, il suffit d'extraire l'archive où vous le souhaitez et lancer **MOGWAI CLI** depuis cet emplacement.
 
 ## MOGWAI STUDIO
+
+**MOGWAI STUDIO** est un IDE de développement dédié au runtime **MOGWAI**. Il permet de se connecter à une application utilisant le runtime **MOGWAI** et d'effectuer toutes les opérations nécessaires pendant le processus de développement.
+
+Il possède un éditeur de code avec coloration syntaxique, un débogueur avancé (permettant par exemple l'exécution pas à pas ou encore le changement des valeurs des variables en live), des fenêtres affichant l'état de la pile en temps réel, des variables, des événements, etc.
+
+Avec **MOGWAI STUDIO** le développement et la mise au point des programmes s'en trouvent grandement simplifiés.
+
+![MOGWAI CLI](./Images/img04.png)
