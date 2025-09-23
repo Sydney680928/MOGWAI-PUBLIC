@@ -51,7 +51,7 @@ Vous pouvez consulter [la documentation de **MOGWAI CLI**](Documentation/MOGWAI_
 Elle est disponible pour les plateformes suivantes :
 
 + [Windows 32 bits (intel)](MOGWAI_CLI/Windows_32_bits_(intel).zip)
-+ [Windows 64 bits (intel)](MOGWAI_CLI_Windows_64_bits_(intel).zip)
++ [Windows 64 bits (intel)](MOGWAI_CLI/Windows_64_bits_(intel).zip)
 + [Mac OSX 64 bits (intel)](MOGWAI_CLI/Mac_OSX_64_bits_(intel).zip)
 + [Mac OSX 64 bits (arm)](MOGWAI_CLI/Mac_OSX_64_bits_(arm).zip)
 + [Linux 64 bits (intel)](MOGWAI_CLI/Linux_64_bits_(intel).zip)
@@ -65,8 +65,23 @@ Pour l'utiliser, il suffit d'extraire l'archive où vous le souhaitez et lancer 
 
 **MOGWAI STUDIO** est un IDE de développement dédié au runtime **MOGWAI**. Il permet de se connecter à une application utilisant le runtime **MOGWAI** et d'effectuer toutes les opérations nécessaires pendant le processus de développement.
 
+![MOGWAI CLI](./Images/img04.png)
+
 Il possède un éditeur de code avec coloration syntaxique, un débogueur avancé (permettant par exemple l'exécution pas à pas ou encore le changement des valeurs des variables en live), des fenêtres affichant l'état de la pile en temps réel, des variables, des événements, etc.
+
+![MOGWAI CLI](./Images/img05.png)
+
+Les extraits de code simplifient la saisie des différents "acteurs" d'un programme (fonctions, événements, tâches, boucles, tests, etc).
+
+![MOGWAI CLI](./Images/img06.png)
+
+Le runtime connecté à *MOGWAI STUDIO* lui fournit toutes les fonctions qu'il peut utiliser et toutes celles qui font partie des fonctions étendues (il est possible d'étendre le langage en lui ajoutant des fonctions en C#).
+
+D'un runtime à un autre (version, usage), **MOGWAI STUDIO** s'adapte et ne propose que les fonctions réellement utilisables et reconnues.
 
 Avec **MOGWAI STUDIO** le développement et la mise au point des programmes s'en trouvent grandement simplifiés.
 
-![MOGWAI CLI](./Images/img04.png)
+**MOGWAI STUDIO** est disponible pour les plateformes suivantes :
+
++ [Windows 32 bits (intel)](MOGWAI_STUDIO/Windows_32_bits_(intel).zip)
++ [Windows 64 bits (intel)](MOGWAI_STUDIO/Windows_64_bits_(intel).zip)
