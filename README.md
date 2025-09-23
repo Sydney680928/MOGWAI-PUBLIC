@@ -75,7 +75,7 @@ Les extraits de code simplifient la saisie des différents "acteurs" d'un progra
 
 ![MOGWAI CLI](./Images/img06.png)
 
-Le runtime connecté à *MOGWAI STUDIO* lui fournit toutes les fonctions qu'il peut utiliser et toutes celles qui font partie des fonctions étendues (il est possible d'étendre le langage en lui ajoutant des fonctions en C#).
+Le runtime connecté à **MOGWAI STUDIO** lui fournit toutes les fonctions qu'il peut utiliser et toutes celles qui font partie des fonctions étendues (il est possible d'étendre le langage en lui ajoutant des fonctions en C#).
 
 D'un runtime à un autre (version, usage), **MOGWAI STUDIO** s'adapte et ne propose que les fonctions réellement utilisables et reconnues.
 
@@ -86,10 +86,14 @@ Avec **MOGWAI STUDIO** le développement et la mise au point des programmes s'en
 + [Windows 32 bits (intel)](MOGWAI_STUDIO/Windows_32_bits_(intel).zip)
 + [Windows 64 bits (intel)](MOGWAI_STUDIO/Windows_64_bits_(intel).zip)
 
-  ## Les utilisations dans l'industrie
+Vous pouvez télécharger la version de **MOGWAI STUDIO** adaptée à votre plateforme.
 
-  Le runtime **MOGWAI** a déjà été plusieurs fois utilisé dans des applications industrielles et de mise au point d'applications utilisant la communication série et Bluetooth Low Energy.
+Pour l'utiliser, il suffit d'extraire l'archive où vous le souhaitez et lancer **MOGWAI STUDIO** depuis cet emplacement.
 
-  La dernière en date (octobre 2025) est un banc de tests d'appareils électroniques (développé en C# ?.NET 8 pour Windows) qui utilise le runtime **MOGWAI** pour l'écriture de tous les tests pour les différents produits concernés.
+## Les utilisations dans l'industrie
 
-  ![MOGWAI CLI](./Images/img07.png)
+Le runtime **MOGWAI** a déjà été plusieurs fois utilisé dans des applications industrielles et de mise au point d'applications utilisant la communication série et Bluetooth Low Energy.
+
+La dernière en date (octobre 2025) est un banc de tests d'appareils électroniques (développé en C# ?.NET 8 pour Windows) qui utilise le runtime **MOGWAI** pour l'écriture de tous les tests pour les différents produits concernés.
+
+![MOGWAI CLI](./Images/img07.png)
