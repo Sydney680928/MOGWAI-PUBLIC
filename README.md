@@ -1,4 +1,4 @@
-# Le langage MOGWAI
+# Le runtime et le langage MOGWAI
 
 ![MOGWAI](./Images/img01.png)
 
