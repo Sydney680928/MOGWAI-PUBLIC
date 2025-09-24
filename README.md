@@ -46,7 +46,7 @@ Aura comme resultat d'exécution :
 
 ![MOGWAI CLI](./Images/img03.png)
 
-Vous pouvez consulter [la documentation de **MOGWAI CLI**](Documentation/MOGWAI_BASICS.pdf) pour comprendre comment cette application fonctionne.
+Vous pouvez consulter [la documentation de **MOGWAI CLI**](Documentation/MOGWAI_CLI.pdf) pour comprendre comment cette application fonctionne.
 
 Elle est disponible pour les plateformes suivantes :
 
