@@ -1,10 +1,10 @@
-# Le runtime et le langage MOGWAI
+# Le langage et le moteur d'exécution MOGWAI
 
 ![MOGWAI](./Images/img01.png)
 
 ## Introduction
 
-**MOGWAI** est un langage de programmation très inspiré du **FORTH** et du **RPL**.
+**MOGWAI** est un moteur d'exécution et un langage de programmation très inspiré du **FORTH** et du **RPL**.
 
 Il permet de "motoriser" vos applications avec un moteur d'exécution développé en .NET
 
