@@ -1,4 +1,4 @@
-# Le langage et le moteur d'exécution MOGWAI
+# Langage et Moteur d'exécution MOGWAI
 
 ![MOGWAI](./Images/img01.png)
 
